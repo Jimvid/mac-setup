@@ -1,0 +1,10 @@
+rectangle
+alt-tab
+iterm2
+alfred
+firefox-developer-edition
+discord
+slack
+visual-studio-code
+insomnia
+itsycal
