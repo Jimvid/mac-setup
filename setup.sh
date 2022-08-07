@@ -11,12 +11,7 @@ xargs brew install < brew-casks.txt
 # Install brew formulae
 xargs brew install < brew-formulae.txt
 
-# setup dotfiles
-cd ~ 
-
-curl -O https://raw.githubusercontent.com/jimvid/dotfiles/master/.bash_profile
-
-# Condigure github user
+# Configure github user
 git config --global user.name jimvid
 git config --global user.email victor@jimvid.com
 
@@ -33,6 +28,7 @@ nvm use latest
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# install eslint globally
 npm install -g eslint
 
 # Create a dev folder
