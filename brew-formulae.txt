@@ -1,3 +1,10 @@
 git
 tree
+<<<<<<< Updated upstream
 pnpm
+=======
+pnpm
+starship
+rust
+fzf
+>>>>>>> Stashed changes
