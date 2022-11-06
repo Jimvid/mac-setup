@@ -27,6 +27,9 @@ nvm use --lts
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# Install oh-my-zsh auto-suggestion
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 # install starship
 curl -sS https://starship.rs/install.sh | sh
 
