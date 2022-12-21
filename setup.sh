@@ -36,5 +36,8 @@ curl -sS https://starship.rs/install.sh | sh
 # install eslint globally
 npm install -g eslint
 
+# install prettier globally
+npm install -g prettier 
+
 # Create a dev folder
 mkdir ~/dev
