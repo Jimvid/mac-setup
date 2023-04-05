@@ -1,7 +1,6 @@
 git
 tree
 pnpm
-pnpm
 starship
 rust
 fzf
