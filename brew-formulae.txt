@@ -4,3 +4,5 @@ pnpm
 starship
 rust
 fzf
+lsd
+tmux
