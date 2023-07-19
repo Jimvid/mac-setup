@@ -1,8 +1,0 @@
-git
-tree
-pnpm
-starship
-rust
-fzf
-lsd
-tmux

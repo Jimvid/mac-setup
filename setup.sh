@@ -6,10 +6,7 @@ xcode-select --install
 brew update
 
 # Install brew casks
-xargs brew install < brew-casks.txt
-
-# Install brew formulae
-xargs brew install < brew-formulae.txt
+xargs brew install < brews.txt
 
 # Configure github user
 git config --global user.name jimvid
